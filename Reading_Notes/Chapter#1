@@ -1,0 +1,23 @@
+INTO TO COMPUTATIONAL PHTYSICS:
+
+CHAPTER 1{NOTES}(INTRO TO COMPUTATIONAL PHYSICS):
+Computational physics mainly focuses on solving the physical/real world problems using the computational algorithms. This also includes these problems with the programming to easily solve the complex problems. 
+Steps in solving a problem:
+1- Defining a problem: we usually begin with explaining the physical problem to analyze the situation. For example, measuring the position of the ball in the free fall and in the presence of air resistance.
+2- Modeling mathematically: rewrite those problems in terms of mathematical expressions; for example, Euler law with the help of ordinary differential equations.
+3-Choose the method: figure out which algorithm or method are we going to use.
+4- Implementation of code: write the code to solve the problem. 
+5- Testing the results: compare the experimental results with the theoretical data. Then create the graph of the data to visualize the results.
+Types of Problems: 
+1- Discrete problems: systems which are described by separate individuals.
+2- Continuous problems: systems where the quantity is changing with the time. For example, modeling the temperature distribution over the metal rod.
+ Method:
+1- differentiation and integration: these methods are used when you cannot find the derivatives of integrals analytically.
+2- Ordinary differential equations: these equations usually define the variable that changes with respect to time.
+3-Partial differential equations: these equations show the use of multiple variables.
+Challenges in computational physics:
+1- To acquire higher precision we need small steps.
+2- Discretization error usually occurs when the continuous variables are converted into the discrete variables.
+3-we face round off errors sometimes due to the limitations on the floating points.
+
+
