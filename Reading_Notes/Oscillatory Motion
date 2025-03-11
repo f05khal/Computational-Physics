@@ -1,0 +1,34 @@
+
+Chapter 3| Notes:
+
+Simple pendulum consists of 
+1-mass (m) connected to a massless string of length l.
+2-The string is rigidly supported at one end.
+3-The angle θθ is measured from the vertical.
+The forces acting on pendulum are gravity and tension
+Equation of motion:
+Fθ​=−mgsinθ
+d^2θ/dt^2=-g/lθ ←This is the differential equation of Simple Harmonic Motion (SHM).
+The solution follows a sinusoidal function:
+θ=θ0sin⁡(Ωt+ϕ)
+The frequency depends only on gravity (g) and length (l).
+While an analytic solution exists, real-world oscillatory systems often include nonlinearities and damping, which require numerical solutions. It's easier to solve them  numerically using methods like Euler’s method.
+The small-angle approximation (sin⁡θ≈θ sin θ≈θ) is only valid for small oscillations.Real systems lose energy over time.The equation includes a damping term −bω−bω, where bb is a damping coefficient.Chaos arises when small differences in initial conditions lead to exponentially different outcomes.A nonlinear, driven pendulum exhibits chaotic motion when:The system is forced periodically and the amplitude of the external force is high enough.Leads to damped oscillations (amplitude decreases over time).
+Euler’s method is a simple numerical technique to approximate solutions to ordinary differential equations (ODEs).A crucial problem with Euler’s method is that it does not conserve energy, which leads to incorrect long-term behavior in oscillatory systems like a pendulum.The true energy of the pendulum should remain constant:
+E=12ml2ω2+mgl(1−cos⁡θ)E=21​ml2ω2+mgl(1−cosθ).However, due to numerical errors, Euler’s method often adds or removes energy, making the system unrealistic.To fix the instability of Euler’s method, we use a modified approach called the Euler-Cromer method, which updates velocity before position.
+Damping in a Pendulum:Introducing friction modifies the equation of motion by adding a velocity-dependent term.Three regimes of damping:
+1-Underdamped: Oscillatory motion with decreasing amplitude.
+2-Overdamped: No oscillations, slow return to equilibrium.
+3-Critically damped: Fastest return to equilibrium without oscillations.
+Addition of an external periodic driving force influences the pendulum’s motion.
+The system exhibits resonance when the driving frequency matches the natural frequency, causing large amplitude oscillations.
+Removing the small-angle approximation results in a nonlinear equation of motion.
+The motion is still periodic, but the period depends on amplitude, unlike in the linear case.
+For large oscillations, the pendulum spends more time at extreme positions, increasing the period.
+
+
+
+
+
+
+
